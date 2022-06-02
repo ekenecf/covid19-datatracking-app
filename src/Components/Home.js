@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { sortData } from '../Redux/DataReducer/Actions';
 import getData from '../Redux/DataReducer/api';
 import Listitem from './Listitem';
+import './Home.css';
 
 const Home = () => {
   const { countries, loading, error } = useSelector((state) => state.DataReducer);
@@ -49,12 +50,13 @@ const Home = () => {
 
     <div>
       <div>
-        <h2>
+        <h2 className="totalCases">
           World total cases
           {totalcases.toLocaleString('en-US')}
         </h2>
       </div>
-      <div>
+      <div className="sortOptions">
+        <p>Sort Items: </p>
         <select onChange={handleSearch}>
           <option value="a-z">A-Z</option>
           <option value="z-a">Z-A</option>
@@ -62,17 +64,18 @@ const Home = () => {
           <option value="descending">Descending TotalConfirmed</option>
         </select>
       </div>
-      <>
+
+      <div className="countryList">
         {
         countries.map((country) => (
           <Listitem
             key={country.ID}
             countries={country.Country}
-            totalconfirmed={country.TotalConfirmed}
+            totalconfirmed={country.TotalConfirmed.toLocaleString('en-US')}
           />
         ))
       }
-      </>
+      </div>
     </div>
 
   );

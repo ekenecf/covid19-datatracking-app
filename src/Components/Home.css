@@ -1,0 +1,23 @@
+.totalCases {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.countryList {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-inline: 5%;
+}
+
+.sortOptions {
+    display: flex;
+    gap: 5%;
+    margin-bottom: 6%;
+    margin-top: 10%;
+    margin-left: 14%;
+}
+
+#root {
+    background-color: #fd5394;
+}

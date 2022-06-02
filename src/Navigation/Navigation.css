@@ -1,3 +1,33 @@
-.headingDetails img {
+.headingDetails{
+    /* margin-top: 5%; */
+    margin-inline: 5%;
+}
+
+.headingDetails img.image1 {
     width: 70%;
+    margin-top: 5%;
+    margin-left: 14%;
+}
+
+.headingDetails img.image2 {
+    width: 10%;
+}
+
+.headingDetails img.image3 {
+    width: 10%;
+}
+
+.headingDetails p {
+    font-size: 20px;
+    font-weight: 700;
+    width: 70%;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistics p, img {
+    margin-top: 5%;
 }

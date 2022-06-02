@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
+import './Listitem.css';
 
 const Listitem = (props) => {
   const { countries, totalconfirmed } = props;
   return (
-    <div>
+    <div className="listItem">
       <NavLink id={countries} to="/Details" state={{ country: countries }}>
-        <p>{countries}</p>
-        <p>{totalconfirmed}</p>
+        <li className="countries">{countries}</li>
+        <li className="confirmed">{totalconfirmed}</li>
       </NavLink>
     </div>
   );
