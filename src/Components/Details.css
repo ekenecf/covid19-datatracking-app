@@ -1,0 +1,19 @@
+.countryDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mapCountry {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.mapCountry p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ddd9d9;
+}

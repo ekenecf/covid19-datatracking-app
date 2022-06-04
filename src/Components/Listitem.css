@@ -1,0 +1,32 @@
+li.countries,
+.confirmed {
+  font-size: 15px;
+}
+
+.listItem .confirmed {
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.listItem .countries {
+  margin-top: 15%;
+}
+
+.listItem li {
+  list-style-type: none;
+  color: #fff;
+}
+
+.listItem a {
+  text-decoration: none;
+}
+
+.listItem:nth-child(odd) {
+  background-color: #c97797;
+  text-align: center;
+}
+
+.listItem:nth-child(even) {
+  background-color: #cf5a89;
+  text-align: center;
+}
