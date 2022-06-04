@@ -84,6 +84,9 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+## ACKNOWLEDGEMENTS
+This template was inspired by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
+
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
