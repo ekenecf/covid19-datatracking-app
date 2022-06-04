@@ -7,8 +7,10 @@ the about page takes you to the details of each country with regards to the stat
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Screensot
-
+## Screenshot
+<img src='../images/Canada_covid_cases.png'  />
+<img src='../images/covid19_snapshot.png'  />
+<img src='../images/Nigeria_covid_cases.png'  />
 <!-- ![screenshot](./screenshot.png) -->
 
 ## Built With
