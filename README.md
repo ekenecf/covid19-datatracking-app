@@ -8,10 +8,14 @@ the about page takes you to the details of each country with regards to the stat
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Screenshot
-<img src='../images/Canada_covid_cases.png'  />
-<img src='../images/covid19_snapshot.png'  />
-<img src='../images/Nigeria_covid_cases.png'  />
-<!-- ![screenshot](./screenshot.png) -->
+
+<img src='./images/Canada_covid_cases.png' alt='Canada_covid_cases' />
+<img src='./images/covid19_snapshot.png' alt='covid19_App_snapshot' />
+<img src='./images/Nigeria_covid_cases.png' alt='Nigeria_covid_cases' />
+
+## Video Presentation
+
+- Check the [Video Presentation](https://www.loom.com/share/f07f31f39a0a4952a002f735a8d697e0) 
 
 ## Built With
 
