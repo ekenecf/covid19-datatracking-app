@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests: Listitem should return an action with type SORT_DATA 1`] = `
+<React.Fragment>
+  <div
+    className="listItem"
+  >
+    <NavLink
+      state={
+        Object {
+          "country": undefined,
+        }
+      }
+      to="/Details"
+    >
+      <li
+        className="countries"
+      />
+      <li
+        className="confirmed"
+      />
+    </NavLink>
+  </div>
+</React.Fragment>
+`;

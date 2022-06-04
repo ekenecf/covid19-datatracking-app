@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Details.css';
 
 const ListDetail = (props) => {
   const {
@@ -7,15 +8,39 @@ const ListDetail = (props) => {
     newDeaths, newRecovered, yesterdayconfirmed, source,
   } = props;
   return (
-    <div>
-      <p>{country}</p>
-      <p>{confirmedToday}</p>
-      <p>{deathToday}</p>
-      <p>{newdayConfirmed}</p>
-      <p>{newDeaths}</p>
-      <p>{newRecovered}</p>
-      <p>{yesterdayconfirmed}</p>
-      <p>{source}</p>
+    <div className="mapCountry">
+      <p>
+        Country:
+        {country}
+      </p>
+      <p>
+        Confirmed cases Today:
+        {confirmedToday}
+      </p>
+      <p>
+        Death today:
+        {deathToday}
+      </p>
+      <p>
+        New cases:
+        {newdayConfirmed}
+      </p>
+      <p>
+        Todays new death:
+        {newDeaths}
+      </p>
+      <p>
+        New Recovered person&apos;s:
+        {newRecovered}
+      </p>
+      <p>
+        Confirmed cases yesterday:
+        {yesterdayconfirmed}
+      </p>
+      <p>
+        Source:
+        {source}
+      </p>
     </div>
   );
 };

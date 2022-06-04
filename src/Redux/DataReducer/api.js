@@ -21,6 +21,7 @@ export const getCountryData = (countryName) => (dispatch) => {
   dispatch(countryDetailsLoading());
   const now = new Date();
   const date = `${now.getFullYear()}-${now.getMonth()}-${now.getDate()}`;
+
   fetch(`https://api.covid19tracking.narrativa.com/api/${date}/country/${countryName}`)
     .then((response) => response.json())
     .then((data) => {

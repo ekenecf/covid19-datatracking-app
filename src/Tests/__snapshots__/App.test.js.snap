@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for App App Correctly renders... 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <nav
+      className="headingDetails"
+    />
+  </header>
+  <div
+    className="loadingImage"
+  >
+    <img
+      alt="imageloading..."
+      src="https://c.tenor.com/FBeNVFjn-EkAAAAC/ben-redblock-loading.gif"
+    />
+  </div>
+</div>
+`;
+
+exports[`Tests: Home render test 1`] = `
+<div
+  className="loadingImage"
+>
+   
+  <img
+    alt="imageloading..."
+    src="https://c.tenor.com/FBeNVFjn-EkAAAAC/ben-redblock-loading.gif"
+  />
+</div>
+`;

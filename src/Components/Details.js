@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useLocation } from 'react-router-dom';
 import { getCountryData } from '../Redux/DataReducer/api';
 import ListDetail from './ListDetails';
+import './Details.css';
 
 const Details = () => {
   const [countryFlag, setCountryFlag] = useState();
@@ -38,15 +39,12 @@ const Details = () => {
       setCountryFlag(data[0].flags.png);
     });
 
-  // const data = [];
   const datum = Object.values(viewDetails);
-  // console.log( 'datum',  datum)
   const array = Object.assign([], datum);
-  // console.log('array', array);
 
   return (
 
-    <div>
+    <div className="countryDetail">
       <img src={countryFlag} alt="countryFlag" />
       <div>
         {
