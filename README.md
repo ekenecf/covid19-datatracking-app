@@ -10,13 +10,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Screenshot
 
 <p align-item = "center">Desktop View<p>
-<img src="./images/Canada_covid_cases.png" alt='Canada_covid_cases' />
+<img src="src/images/Canada_covid_cases.png" alt='Canada_covid_cases' />
 
 <p align-item = "center">Desktop View<p>
-<img src= "./images/covid19_snapshot.png" alt='covid19_App_snapshot' />
+<img src= "src/images/covid19_snapshot.png" alt='covid19_App_snapshot' />
 
 <p align-item = "center">Desktop View<p>
-<img src="./images/Nigeria_covid_cases.png" alt='Nigeria_covid_cases' />
+<img src="src/images/Nigeria_covid_cases.png" alt='Nigeria_covid_cases' />
 
 ## Video Presentation
 
